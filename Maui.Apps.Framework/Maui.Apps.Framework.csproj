@@ -15,4 +15,13 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <Folder Include="Helpers\" />
+	  <Folder Include="Services\" />
+	  <Folder Include="MVVM\" />
+	  <Folder Include="Extensions\" />
+	  <Folder Include="UI\" />
+	  <Folder Include="Converters\" />
+	</ItemGroup>
+
 </Project>
