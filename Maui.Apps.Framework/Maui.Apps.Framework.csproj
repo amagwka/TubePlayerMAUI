@@ -14,4 +14,13 @@
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <Folder Include="Helpers\" />
+	  <Folder Include="Services\" />
+	  <Folder Include="MVVM\" />
+	  <Folder Include="Extensions\" />
+	  <Folder Include="UI\" />
+	  <Folder Include="Converters\" />
+	</ItemGroup>
+
 </Project>

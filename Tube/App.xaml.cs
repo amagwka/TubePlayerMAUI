@@ -7,6 +7,8 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
+		VersionTracking.Track();
+		
 		MainPage = new AppShell();
 	}
 }
