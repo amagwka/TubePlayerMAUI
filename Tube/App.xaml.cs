@@ -1,4 +1,5 @@
-﻿namespace Tube;
+﻿
+namespace Tube;
 
 public partial class App : Application
 {
